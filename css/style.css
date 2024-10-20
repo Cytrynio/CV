@@ -226,8 +226,7 @@ table {
 .inf_4,
 .inf_5,
 .inf_6,
-.inf_7
-.inf_8 {
+.inf_7 {
   margin: 50px 10px;
 }
 
@@ -324,7 +323,7 @@ table {
 
 .tooltip {
   position: relative;
-  display: inline-block;
+  display: inline;
   border-bottom: 1px black;
 }
 
@@ -345,17 +344,6 @@ table {
   margin-left: -60%;
   opacity: 0;
   transition: opacity 0.3s;
-}
-
-.tooltip .tooltiptext::after {
-  content: "";
-  position: absolute;
-  top: 100%;
-  left: 50%;
-  margin-left: -5px;
-  border-width: 5px;
-  border-style: solid;
-  border-color: #555 transparent transparent transparent;
 }
 
 .tooltip:hover .tooltiptext {
