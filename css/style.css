@@ -194,6 +194,7 @@ table {
 .education h3 {
   margin-top: 10px;
   text-align: center;
+  margin-bottom: 10px;
 }
 
 .education_item h2 {
@@ -225,7 +226,8 @@ table {
 .inf_4,
 .inf_5,
 .inf_6,
-.inf_7 {
+.inf_7
+.inf_8 {
   margin: 50px 10px;
 }
 
@@ -292,6 +294,10 @@ table {
   flex-wrap: wrap;
   width: 90%;
   margin-left: 25px;
+}
+
+.language_list {
+  margin-left: 66px;
 }
 
 .inf_7 {
