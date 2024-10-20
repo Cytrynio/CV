@@ -49,7 +49,8 @@
     display: flex;
     justify-content: center;
     padding: 10px;
-    margin-top: 25px
+    margin-top: 25px;
+    margin-bottom: 15px;
 }
 .icon{
     margin-right: 15px;
@@ -106,6 +107,7 @@ margin-top: 25%;
 .education_item,
 .references_item{
     margin-bottom: 20px;
+    margin-top: 20px;
 }
 .references h3,
 .education h3 {
@@ -144,6 +146,7 @@ margin-top: 25%;
 .experience_item .row, .references_item .row{
     align-items: center;
     justify-content: space-between;
+    margin-top: 36px
 }
 
 .description{

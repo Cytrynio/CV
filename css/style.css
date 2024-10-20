@@ -128,6 +128,7 @@ table {
   justify-content: center;
   padding: 10px;
   margin-top: 25px;
+  margin-bottom: 15px;
 }
 
 .icon {
@@ -186,6 +187,7 @@ table {
 .education_item,
 .references_item {
   margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 .references h3,
@@ -230,6 +232,7 @@ table {
 .experience_item .row, .references_item .row {
   align-items: center;
   justify-content: space-between;
+  margin-top: 36px;
 }
 
 .description {
