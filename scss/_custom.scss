@@ -222,3 +222,48 @@ margin-top: 25%;
 .languages{
     margin-bottom: 40px;
 }
+
+
+// Tooltip 
+.tooltip {
+position: relative;
+display: inline-block;
+border-bottom: 1px black;
+}
+// Tooltip text
+.tooltip .tooltiptext{
+visibility: hidden;
+width: auto;
+background-color:black;
+color: var(--bialy);
+text-align: center;
+padding: 5px 5px;
+border-radius: 6px;
+display: flex;
+text-wrap: nowrap;
+// position 
+
+position: absolute;
+z-index: 1;
+bottom: 125%;
+left: 50%;
+margin-left: -60%;
+
+opacity: 0;
+transition: opacity 0.3s;
+}
+
+.tooltip .tooltiptext::after{
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
